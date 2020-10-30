@@ -9,6 +9,7 @@ require('dotenv').config();
 //import routes
 const authRoutes = require('./routes/auth')
 const userRoutes = require('./routes/user')
+const profileRoutes = require('./routes/profile')
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use(cors())
 
 //routes middleware
 app.use(authRoutes); //use app.use("/api", authRoutes) to get deault "/api" in URL, example localhost:3000/api/signin, etc
+app.use(profileRoutes)
 
 const port = process.env.PORT || 3000
 
