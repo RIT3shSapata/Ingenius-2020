@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+# reLearn - <i>A Social Network For Learning</i>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As the schools and colleges are closed, it is almost impossible for students to network with their peers and friends and stay motivated to learn a new skill at the same time. In this fast-moving and competitive world, it is very important for everyone to explore each and every skill possible and either have a basic knowledge about everything or be proficient at something. Here at reLearn, we redefine the learning process for each student allowing them to connect on a skill level and not on the basis of grades at subjects or the class they are studying in.
 
-## Available Scripts
+reLearn can be used by anyone who wants a partner or a peer to stay motivated to learn a new skill and work on collaborative projects. It is generally seen that people lose their interest while they are trying to self learn a new skill as they cannot be focused and be motivated to learn it. This is the reason why we decided to gamify our hack and add XP points, challenges, and fun rewards including discount coupons as well as vouchers. 
 
-In the project directory, you can run:
+The reason for including a collaborative section was to encourage students to start collaborating from a very basic stage so that they knowingly or unknowingly learn to be a team performer, which is a huge asset in the present times.
 
-### `npm start`
+The features of our website include in-app chat and video streaming, and video calling services. skill and achievement showcase, project section - more coming soon. We will keep a track of a student's progress by getting submitting a course certificate and a project supporting it which will be further verified by our team and given XP points accordingly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We strongly believe that our hack can bring a revolution to the Education and Social Networking Sector.
