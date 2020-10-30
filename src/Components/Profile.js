@@ -5,6 +5,7 @@ import ProfileCard from './ProfileCard';
 
 function Profile() {
   return (
+    
     <div className='Profile'>
       <div className='Profile__top'>
         <div className='Profile__left'>
@@ -14,17 +15,17 @@ function Profile() {
           />
         </div>
         <div className='Profile__right'>
-          <h1>DumbTurtl3</h1>
+          <h1 id="name">DumbTurtl3</h1>
           <h2>You need 40XP to level up</h2>
           <Line
             percent={69}
             strokeWidth='3'
-            strokeColor='#6dd94a'
-            trailColor='#e0e334'
+            strokeColor='#1B672f'
+            trailColor='#976666'
             trailWidth='2'
           />
           <div className='Profile__skills'>
-            <h3>Skills:</h3>
+            <h2>Skills:</h2>
             <h4>Python</h4>
             <h4>JavaScript</h4>
             <h4>HTML</h4>
@@ -32,15 +33,20 @@ function Profile() {
         </div>
       </div>
       <div className='Profile__bottom'>
-        <h1 className='Profile__achievementsTitle'>Achievements</h1>
+        
+        <h1 className='Profile__achievementsTitle'>ACHIEVEMENTS</h1>
+        <hr className="gradient_line" />
         <div className='Profile__achievements'>
           <ProfileCard />
           <ProfileCard />
           <ProfileCard />
           <ProfileCard />
         </div>
+        
       </div>
+      
     </div>
+    
   );
 }
 
