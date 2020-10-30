@@ -8,9 +8,6 @@
   background-color: rgba(0, 0, 0, 0.637);
 }
 
-.Navbar:hover {
-  color: #989797;
-}
 .Navbar__left {
   flex: 0.7;
   display: flex;

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  height: 100vh !important;
+  background-image: url('../img/land.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 40px;
+  color: floralwhite;
+}
+
+.lander {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(255, 253, 253);
+  text-align: center;
+  display: fixed;
+}
+
+.typewrite-text {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  top: 50px;
+}
+
+.gradient_line {
+  margin: 0 0 50px 0;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  border: none;
+  height: 2px;
+  background: #0071b9;
+  background: linear-gradient(
+    to right,
+    white,
+    #4c4f52,
+    #7a7e81,
+    #9d9fa0,
+    white
+  );
+}
+#user {
+  position: relative;
+  top: 120px;
+}
+#button1,
+#button2 {
+  margin: 0px 15px;
+  width: 120px;
+  height: 60px;
+  background: #313030;
+  color: white;
+  padding: 12px 0;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#button1:hover {
+  background-color: rgb(119, 111, 111);
+}
+#button2:hover {
+  background-color: rgb(119, 111, 111);
+}
+
+#user {
+  text-align: center;
+}
