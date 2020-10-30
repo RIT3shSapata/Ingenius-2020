@@ -1,4 +1,7 @@
- <input type="checkbox" name="ToDo-1" value="video"> Video <br>
- <input type="checkbox" name="ToDo-2 " value="ppt"> PPT To submit at 12PM<br>
-<input type="checkbox" name="ToDo-3" value="devfolio"> Devfolio at 11AM and cross check<br>
-<input type="checkbox" name="ToDo-3" value="devfolio"> Devfolio at 11AM and cross check<br>
+- [ ] Video
+- [ ] Presentation to submit with repo on Devfolio
+- [ ] Devfolio submission at 11AM 
+- [ ] TO DO
+    - [ ] Integrating server side [IMPORTANT]
+    - [ ] Web Design to be made more appealing [IMPORTANT]
+    - [ ] Chatbox, Video Call, Quiz [OPTIONAL]
