@@ -22,7 +22,7 @@ function Navbar() {
           <Link to='/Friends'>
             <GroupIcon className='Navbar__group' />
           </Link>
-          <Link to='/Profile'>
+          <Link to='/profile'>
             <AccountBoxIcon className='Navbar__account' />
           </Link>
           <Link to='/Notification'>
