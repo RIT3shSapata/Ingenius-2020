@@ -4,7 +4,12 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #34c0eb;
+  height: 95px;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+.Navbar:hover {
+  color: #989797;
 }
 .Navbar__left {
   flex: 0.7;
@@ -16,4 +21,52 @@
   flex: 0.3;
   display: flex;
   justify-content: space-evenly;
+}
+
+.Navbar__logo {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+.Navbar__dashboard
+{
+  color: white;
+  font-size: 40px;
+}
+
+.Navbar__dashboard:hover
+{
+  color: #989797;
+}
+
+.Navbar__group
+{
+  color: white;
+  font-size: 40px;
+}
+
+.Navbar__group:hover
+{
+  color: #989797;
+}
+.Navbar__account
+{
+  color: white;
+  font-size: 40px;
+}
+
+.Navbar__account:hover
+{
+  color: #989797;
+}
+.Navbar__notification
+{
+  color: bisque;
+  font-size: 40px;
+}
+
+.Navbar__notification:hover
+{
+  color: #989797;
 }

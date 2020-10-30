@@ -7,23 +7,65 @@
   width: 100%;
   max-height: 300px;
   object-fit: contain;
+  position: relative;
+  right: 90px;
+
 }
 .Profile__left {
   flex: 05;
+
 }
 .Profile__right {
   flex: 05;
+  background-color: #646464;
+  text-align: center;
+  position: relative;
+  right: 160px;
+  padding: 10px;
 }
 .Profile__skills {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
 }
-.Profile__skills h3 {
+#name{
+  color: beige;
+}
+.Profile__skills h2 {
   align-self: flex-start;
+}
+
+.Profile__bottom{
+  text-align: center;
+  
 }
 .Profile__achievements {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: #646464;
+  max-width: 1200px;
+  margin-left: 130px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-color: black;
+ 
+}
+
+.Profile__achievementsTitle {
+  color: white;
+  font-size: 55px;
+}
+
+.gradient_line{ 
+  margin: -5 0 50px 0;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, white, #4c4f52, #7a7e81, #9d9fa0, white);
 }
