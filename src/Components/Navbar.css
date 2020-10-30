@@ -1,0 +1,19 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #34c0eb;
+}
+.Navbar__left {
+  flex: 0.7;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.Navbar__right {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-evenly;
+}
