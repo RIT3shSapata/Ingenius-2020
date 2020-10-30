@@ -5,6 +5,7 @@
   top: 0;
   z-index: 100;
   background-color: #34c0eb;
+  padding: 20px;
 }
 .Navbar__left {
   flex: 0.7;
