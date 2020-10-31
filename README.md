@@ -18,7 +18,7 @@ MERN Stack, Scikit Learn, nltk, NLP
 
 
 ## Video link 
-<a>https://drive.google.com/file/d/1s8mQy9bChdzDqc_S7Yb6-lW0IeyjUF-_/view?usp=sharing</a>
+<a>https://drive.google.com/file/d/1EKbe6Cw81QUePEaMw-WF_QBkrcYliacG/view</a>
 <br>
 We strongly believe that our hack can bring a revolution to the Education and Social Networking Sector.
 
