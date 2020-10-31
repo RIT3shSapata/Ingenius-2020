@@ -1,5 +1,5 @@
 # reLearn - <i>A Social Network For Learning</i>
-<hr>
+
 ## What are we solving?
 <hr>
 As the schools and colleges are closed, it is almost impossible for students to network with their peers and friends and stay motivated to learn a new skill at the same time. In this fast-moving and competitive world, it is very important for everyone to explore each and every skill possible and either have a basic knowledge about everything or be proficient at something. Here at reLearn, we redefine the learning process for each student allowing them to connect on a skill level and not on the basis of grades at subjects or the class they are studying in.
@@ -12,7 +12,7 @@ The reason for including a collaborative section was to encourage students to st
 <hr>
 The features of our website include in-app chat and video streaming, and video calling services. skill and achievement showcase, project section - more coming soon. We will keep a track of a student's progress by getting submitting a course certificate and a project supporting it which will be further verified by our team and given XP points accordingly.
 
-##Tech Stack
+## Tech Stack
 <hr>
 MERN Stack, Scikit Learn, nltk, NLP
 
