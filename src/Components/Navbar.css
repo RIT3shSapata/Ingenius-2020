@@ -57,6 +57,17 @@
 {
   color: #989797;
 }
+.Navbar__video
+{
+  color: white;
+  font-size: 40px;
+}
+
+.Navbar__video:hover
+{
+  color: #989797;
+}
+
 .Navbar__notification
 {
   color: bisque;

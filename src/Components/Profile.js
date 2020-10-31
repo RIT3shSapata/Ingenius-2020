@@ -7,6 +7,8 @@ function Profile() {
   return (
     
     <div className='Profile'>
+      <h1 className='Profile__achievementsTitle'>PROFILE</h1>
+        <hr className="gradient_line" />
       <div className='Profile__top'>
         <div className='Profile__left'>
           <img

@@ -3,6 +3,7 @@ import DashboardIcon from '@material-ui/icons/Dashboard';
 import GroupIcon from '@material-ui/icons/Group';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import VideocamIcon from '@material-ui/icons/Videocam';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -30,9 +31,13 @@ function Navbar() {
           <Link to='/profile'>
             <AccountBoxIcon className='Navbar__account' />
           </Link>
+          <Link to='/'>
+            <VideocamIcon className='Navbar__video' />
+          </Link>
           <Link to='/notifications'>
             <NotificationsActiveIcon className='Navbar__notification' />
           </Link>
+          
         </div>
       </nav>
     </div>
