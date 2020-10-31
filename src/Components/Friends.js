@@ -4,6 +4,10 @@ import './Friends.css';
 
 function Friends() {
   return (
+    <div>
+    <h1 className='Profile__achievementsTitle'>FRIENDS</h1>
+        <hr className="gradient_line" />
+        
     <div className='Friends'>
       <FriendCard number={1} />
       <FriendCard number={2} />
@@ -13,6 +17,7 @@ function Friends() {
       <FriendCard number={6} />
       <FriendCard number={7} />
       <FriendCard number={8} />
+    </div>
     </div>
   );
 }

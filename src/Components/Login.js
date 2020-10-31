@@ -16,7 +16,7 @@ function Login() {
       <div className='vl'></div>
       <div
         className='account '
-        style={{ position: 'relative', textAlign: 'left', right: '35%' }}>
+        style={{ position: 'relative', textAlign: 'left', right: '85%' }}>
         <form className='signup' onsubmit='return false' autocomplete='off'>
           <h1>Login</h1>
           <div class='signup__field'>

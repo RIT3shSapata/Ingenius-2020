@@ -1,6 +1,7 @@
 import { FormControl, MenuItem, Select, Typography } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import './ProfileForm.css';
+import { Link } from 'react-router-dom';
 
 function ProfileForm() {
   const [experience, setExperience] = useState(0);
@@ -8,7 +9,7 @@ function ProfileForm() {
     console.log(experience);
   }, [experience]);
   return (
-    <div className='Login'>
+    <div className='about'>
       <div
         className='account '
         style={{ position: 'relative', textAlign: 'left', right: '35%' }}>
@@ -35,8 +36,8 @@ function ProfileForm() {
               id='password'
               required
             />
-            <label className='signup__label' for='password'>
-              Github
+            <label className='signup__label' for='username'>
+            GitHub
             </label>
           </div>
 
@@ -175,6 +176,14 @@ function ProfileForm() {
 
           <button>Login</button>
         </form>
+        <div className='side'>
+      <Link to='/Home'>
+        <h1 id='header'>reLEARN</h1>
+      </Link>
+        <p style={{ color: 'aliceblue', fontSize: '15px' }}>
+          The Social Network for Learning!
+        </p>
+      </div>
       </div>
     </div>
   );

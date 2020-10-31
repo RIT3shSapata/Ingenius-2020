@@ -45,7 +45,9 @@ function Dashboard() {
                 <input type='checkbox' id='checkbox' />
                 Task 4
               </div>
+              <div>
               <button id='submit'>Submit Certificate</button>
+              </div>
             </div>
             <br />
             <br />

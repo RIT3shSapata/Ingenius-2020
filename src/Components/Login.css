@@ -17,7 +17,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-.Login {
+.about {
   background-color: #2b2b2b;
   width: 100%;
   min-height: 100vh;
@@ -37,6 +37,7 @@ input {
 .side {
   position: relative;
   left: 550px;
+  float: left;
 }
 #text {
   font-size: 15px;
@@ -47,6 +48,8 @@ input {
 .vl {
   border-left: 6px solid rgb(224, 235, 224);
   height: 100vh;
+  position: relative;
+  right: 60px;
 }
 #header {
   font-size: 50px;

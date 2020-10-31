@@ -20,15 +20,12 @@ input {
   outline: none;
 }
 .side {
-  position: relative;
-  left: 550px;
+  position: absolute;
+  margin-left: 450px;
+  top: 40%;
+  width: max-content;
 }
-#text {
-  font-size: 15px;
-  color: white;
-  position: relative;
-  left: 550px;
-}
+
 .vl {
   border-left: 6px solid rgb(224, 235, 224);
   height: 100vh;
@@ -125,16 +122,16 @@ h2 span {
 
 /*  Button */
 button {
-  background: #313030;
+  background: #a78282;
   color: white;
-  padding: 12px 0;
+  padding: 8px;
   font-size: 1.2rem;
-  border-radius: 25px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #444343;
+  background: #bdabab;
 }
 
 select {
