@@ -4,6 +4,11 @@ import { Line, Circle } from 'rc-progress';
 import ProfileCard from './ProfileCard';
 
 function Profile() {
+  fetch('/recommend').then(res => res.json()).then(data => {
+    console.log("HEEHEHE");
+    console.log(data);
+    let states = data;
+  })
   return (
     
     <div className='Profile'>
@@ -29,6 +34,7 @@ function Profile() {
             <h4>Python</h4>
             <h4>JavaScript</h4>
             <h4>HTML</h4>
+            
           </div>
         </div>
       </div>
@@ -43,6 +49,14 @@ function Profile() {
           <ProfileCard />
         </div>
         
+        
+      </div>
+      <div className="recom">
+        <h2 className="hfriends">Recommended</h2>
+        <h2 className="friends">Friend 1</h2>
+        <h2 className="friends">Friend 2</h2>
+        <h2 className="friends">Friend 3</h2>
+
       </div>
       
     </div>
