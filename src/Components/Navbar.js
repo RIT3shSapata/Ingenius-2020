@@ -12,12 +12,17 @@ function Navbar() {
       <nav className='Navbar'>
         <div className='Navbar__left'>
           <Link to='/'>
-            <h3 className='Navbar__logo' style={{textDecoration: 'none'}}>reLearn</h3>
+            <h3 className='Navbar__logo' style={{ textDecoration: 'none' }}>
+              reLearn
+            </h3>
           </Link>
         </div>
         <div className='Navbar__right'>
           <Link to='/'>
-            <DashboardIcon className='Navbar__dashboard' style={{color: '#fffff'}}/>
+            <DashboardIcon
+              className='Navbar__dashboard'
+              style={{ color: '#fffff' }}
+            />
           </Link>
           <Link to='/Friends'>
             <GroupIcon className='Navbar__group' />
@@ -25,7 +30,7 @@ function Navbar() {
           <Link to='/profile'>
             <AccountBoxIcon className='Navbar__account' />
           </Link>
-          <Link to='/Notification'>
+          <Link to='/notifications'>
             <NotificationsActiveIcon className='Navbar__notification' />
           </Link>
         </div>

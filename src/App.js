@@ -6,6 +6,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Dashboard from './Components/Dashboard';
 import Friends from './Components/Friends';
+import Notifications from './Components/Notifications';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
           <Route path='/friends'>
             <Navbar />
             <Friends />
+          </Route>
+          <Route path='/notifications'>
+            <Navbar />
+            <Notifications />
           </Route>
           <Route path='/'>
             <Navbar />
