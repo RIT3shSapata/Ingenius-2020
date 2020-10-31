@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './Profile.css';
 import { Line, Circle } from 'rc-progress';
 import ProfileCard from './ProfileCard';
 
 function Profile() {
-  fetch('/recommend').then(res => res.json()).then(data => {
-    console.log("HEEHEHE");
-    console.log(data);
-    let states = data;
+  const [a,b] = useState(['No recommendation','No recommendation','No recommendation']);
+  useEffect(()=>{
+    fetch('/recommend').then(res => res.json()).then(data => {
+    b(data.friends);
   })
+  },[])
   return (
     
     <div className='Profile'>
@@ -53,9 +54,9 @@ function Profile() {
       </div>
       <div className="recom">
         <h2 className="hfriends">Recommended</h2>
-        <h2 className="friends">Friend 1</h2>
-        <h2 className="friends">Friend 2</h2>
-        <h2 className="friends">Friend 3</h2>
+        <h2 className="friends">{a[0]}</h2>
+        <h2 className="friends">{a[1]}</h2>
+        <h2 className="friends">{a[2]}</h2>
 
       </div>
       
