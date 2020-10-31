@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Dashboard from './Components/Dashboard';
+import Friends from './Components/Friends';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route path='/profile'>
             <Navbar />
             <Profile />
+          </Route>
+          <Route path='/friends'>
+            <Navbar />
+            <Friends />
           </Route>
           <Route path='/'>
             <Navbar />
