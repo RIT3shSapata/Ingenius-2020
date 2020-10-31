@@ -1,11 +1,14 @@
 import React from 'react';
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
     <div className='Login'>
       <div className='side'>
+      <Link to='/Home'>
         <h1 id='header'>reLEARN</h1>
+      </Link>
         <p style={{ color: 'aliceblue', fontSize: '15px' }}>
           The Social Network for Learning!
         </p>
@@ -44,6 +47,11 @@ function Login() {
 
           <button>Login</button>
         </form>
+        <p className='or'>OR</p>
+
+        <button type="button" class="login-with-google-btn" >
+          Login with Google
+        </button>
       </div>
     </div>
   );

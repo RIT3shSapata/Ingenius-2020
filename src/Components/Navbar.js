@@ -11,7 +11,7 @@ function Navbar() {
     <div>
       <nav className='Navbar'>
         <div className='Navbar__left'>
-          <Link to='/'>
+          <Link to='/Home'>
             <h3 className='Navbar__logo' style={{ textDecoration: 'none' }}>
               reLearn
             </h3>

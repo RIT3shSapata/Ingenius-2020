@@ -1,11 +1,16 @@
 import React from 'react';
 import './Dashboard.css';
+import task from '../img/task.png';
+import hack from '../img/hackathon.png';
 
 function Dashboard() {
   return (
     <div className='Dashboard'>
+       <h1 className='Profile__achievementsTitle'>DASHBOARD</h1>
+        <hr className="gradient_line" />
       <content>
-        <h1>Tasks</h1>
+        <h1 id='right-heading'>TASKS</h1>
+        <img src={task} alt="Logo" />
         <div className='tasks-wrapper'>
           <div className='primary-tasks'>
             <div className='items-wrapper'>
@@ -51,7 +56,9 @@ function Dashboard() {
       <aside>
         <div className='right-header'>
           <h1 id='right-heading'>UPCOMING HACKATHONS</h1>
+          <img src={hack} alt="Logo" />
         </div>
+        
         <div className='text-box column'>
           <div className='column'>
             <div className='schedule-box'>

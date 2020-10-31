@@ -1,13 +1,18 @@
 import React from 'react';
 import './Signup.css';
+import { Link } from 'react-router-dom';
+import web from '../img/web.jpg'
 
 function Signup() {
   return (
     <div className='Signup'>
       <div className='side'>
+      <Link to='/Home'>
         <h1 id='header'>reLEARN</h1>
+      </Link>
         <p id='text'>The Social Network for Learning!</p>
       </div>
+      
       <div className='vl'></div>
       <div class='account' style={{ position: 'relative', right: '35%' }}>
         <form className='signup' onsubmit='return false' autocomplete='off'>
@@ -57,6 +62,11 @@ function Signup() {
 
           <button>Sign up</button>
         </form>
+        <p className='or'>OR</p>
+
+        <button type="button" class="login-with-google-btn" >
+          Sign up with Google
+        </button>
       </div>
     </div>
   );
