@@ -9,11 +9,9 @@
   object-fit: contain;
   position: relative;
   right: 90px;
-
 }
 .Profile__left {
   flex: 05;
-
 }
 .Profile__right {
   flex: 05;
@@ -27,18 +25,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
-#name{
+#name {
   color: beige;
 }
 .Profile__skills h2 {
   align-self: flex-start;
 }
 
-.Profile__bottom{
+.Profile__bottom {
   text-align: center;
-  
 }
 .Profile__achievements {
   display: flex;
@@ -51,7 +47,6 @@
   padding-top: 20px;
   padding-bottom: 30px;
   border-color: black;
- 
 }
 
 .Profile__achievementsTitle {
@@ -59,7 +54,7 @@
   font-size: 55px;
 }
 
-.gradient_line{ 
+.gradient_line {
   margin: -5 0 50px 0;
   width: 500px;
   margin: 0 auto;
@@ -67,5 +62,12 @@
   width: 500px;
   border: none;
   height: 4px;
-  background: linear-gradient(to right, white, #4c4f52, #7a7e81, #9d9fa0, white);
+  background: linear-gradient(
+    to right,
+    white,
+    #4c4f52,
+    #7a7e81,
+    #9d9fa0,
+    white
+  );
 }

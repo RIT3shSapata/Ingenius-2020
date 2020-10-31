@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Profile from './Components/Profile';
 import Home from './Components/Home';
 import Login from './Components/Login';
+import Signup from './Components/Signup';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path='/login'>
             <Login />
+          </Route>
+          <Route path='/signup'>
+            <Signup />
           </Route>
           <Route path='/profile'>
             <Navbar />

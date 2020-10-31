@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.Login {
+.Signup {
   background-color: #2b2b2b;
   width: 100%;
   min-height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,11 +11,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-button,
-input {
-  border: none;
-  outline: none;
-}
 .side {
   position: relative;
   left: 550px;
@@ -25,7 +19,7 @@ input {
   font-size: 15px;
   color: white;
   position: relative;
-  left: 550px;
+  left: 0px;
 }
 .vl {
   border-left: 6px solid rgb(224, 235, 224);
@@ -36,6 +30,12 @@ input {
   color: white;
   right: 40px;
 }
+button,
+input {
+  border: none;
+  outline: none;
+}
+
 .signup {
   background-color: white;
   width: 100%;
@@ -44,10 +44,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   border-radius: 20px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 h1 {
@@ -65,7 +62,7 @@ h2 {
 h2 span {
   text-decoration: underline;
   cursor: pointer;
-  color: #a4243b;
+  color: #24a46f;
 }
 
 /*  Field */
@@ -121,7 +118,7 @@ h2 span {
   background-color: white;
 }
 
-/*  Button */
+/* Button */
 button {
   background: #313030;
   color: white;

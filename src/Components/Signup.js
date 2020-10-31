@@ -1,22 +1,22 @@
 import React from 'react';
-import './Login.css';
+import './Signup.css';
 
-function Login() {
+function Signup() {
   return (
-    <div className='Login'>
+    <div className='Signup'>
       <div className='side'>
         <h1 id='header'>reLEARN</h1>
-        <p style={{ color: 'aliceblue', fontSize: '15px' }}>
-          The Social Network for Learning!
-        </p>
+        <p id='text'>The Social Network for Learning!</p>
       </div>
       <div className='vl'></div>
-      <div
-        className='account '
-        style={{ position: 'relative', textAlign: 'left', right: '35%' }}>
+      <div class='account' style={{ position: 'relative', right: '35%' }}>
         <form className='signup' onsubmit='return false' autocomplete='off'>
-          <h1>Login</h1>
-          <div class='signup__field'>
+          <h1>Create account</h1>
+          <h2>
+            Already have an account? <span>Sign in</span>
+          </h2>
+
+          <div className='signup__field'>
             <input
               className='signup__input'
               type='text'
@@ -25,7 +25,20 @@ function Login() {
               required
             />
             <label className='signup__label' for='username'>
-              Username/Email
+              Username
+            </label>
+          </div>
+
+          <div className='signup__field'>
+            <input
+              className='signup__input'
+              type='text'
+              name='email'
+              id='email'
+              required
+            />
+            <label className='signup__label' for='email'>
+              Email
             </label>
           </div>
 
@@ -42,11 +55,11 @@ function Login() {
             </label>
           </div>
 
-          <button>Login</button>
+          <button>Sign up</button>
         </form>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;
