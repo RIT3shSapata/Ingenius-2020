@@ -16,6 +16,9 @@ The features of our website include in-app chat and video streaming, and video c
 <hr>
 MERN Stack, Scikit Learn, nltk, NLP
 
+
+## Video link 
+<a>https://drive.google.com/file/d/1s8mQy9bChdzDqc_S7Yb6-lW0IeyjUF-_/view?usp=sharing</a>
 We strongly believe that our hack can bring a revolution to the Education and Social Networking Sector.
 
 
