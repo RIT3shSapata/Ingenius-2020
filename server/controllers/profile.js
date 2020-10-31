@@ -3,6 +3,7 @@ const _ = require('lodash')
 const fs = require('fs')
 const { errorHandler } = require('../helpers/dbErrorHandler');
 const Profile = require("../models/profile")
+var spawn = require("child_process").spawn;
 
 exports.updateProfile = (req, res) => {
     let form = new formidable.IncomingForm()
@@ -44,4 +45,8 @@ exports.updateProfile = (req, res) => {
             res.json(result);
         })
     })
+    var process = spawn('python',["./ml.py"] ); 
+    process.stdout.on('data', function(data) { 
+        console.log(data.toString()); 
+    } )
 }
