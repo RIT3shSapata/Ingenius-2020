@@ -4,8 +4,10 @@
   background-color: #2b2b2b;
   width: 100%;
   min-height: 100vh;
-
+  text-align: center;
+  position: relative;
   display: flex;
+  padding-left: 40%;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -114,8 +116,8 @@ h2 span {
   transition: all 0.3s ease;
 }
 
-.signup__input:focus + .signup__label,
-.signup__input:valid + .signup__label {
+.signup_input:focus + .signup_label,
+.signup_input:valid + .signup_label {
   top: 0;
   font-size: 1rem;
   background-color: white;
@@ -133,4 +135,14 @@ button {
 
 button:hover {
   background: #444343;
+}
+
+select {
+  padding: 10px;
+}
+
+.option {
+  position: relative;
+  float: right;
+  margin-bottom: 10px;
 }
