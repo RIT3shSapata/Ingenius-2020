@@ -4,6 +4,7 @@ import Profile from './Components/Profile';
 import Home from './Components/Home';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           </Route>
           <Route path='/'>
             <Navbar />
-            <h1>Quaranteam</h1>
+            <Dashboard />
           </Route>
         </Switch>
       </div>
